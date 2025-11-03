@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import chatRoute from "./routes/chatRoute.js";
 
 dotenv.config();
 
@@ -11,5 +12,6 @@ app.get("/api/v1/health", (_, res) => {
   res.status(200).json({ status: "ok", message: "Agentic API running" });
 });
 
+app.use("/api/v1", chatRoute);
 
 export default app;
