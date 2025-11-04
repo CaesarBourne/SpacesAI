@@ -61,7 +61,7 @@ Expected output:
 Use **curl** or **Postman**:
 
 ```bash
-curl -N -X POST http://localhost:3000/chat \
+curl -N -X POST http://localhost:3000/api/v1/chat \
   -H "Content-Type: application/json" \
   -d '{"query":"current bitcoin price"}'
 ```
