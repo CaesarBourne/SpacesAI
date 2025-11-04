@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { geminiModel } from "../config/gemini.ts";
-import { webSearch } from "../tools/webSearch.ts";
-import { decideTool } from "../agent/toolPlanner.ts";
-import { calculator } from "../tools/calculator.ts";
-import { apiRequest } from "../tools/apiRequest.ts";
+import { geminiModel } from "../config/gemini.js";
+import { webSearch } from "../tools/webSearch.js";
+import { decideTool } from "../agent/toolPlanner.js";
+import { calculator } from "../tools/calculator.js";
+import { apiRequest } from "../tools/apiRequest.js";
 
 interface ChatEvent {
   type: "reasoning" | "response" | "done" | "error" | "tool_call";
