@@ -1,6 +1,6 @@
 // app.use("/api/v1", chatRoute);
 import dotenv from "dotenv";
-import { getFromCache, setToCache } from "../utils/cache";
+import { getFromCache, setToCache } from "../utils/cache.js";
 
 type TavilyResponse = {
   answer?: string;
