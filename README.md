@@ -184,7 +184,7 @@ Accepts a query string and returns streaming JSON events.
 | --------------- | ------------------------------------------ | ------------------------------------------------ |
 | **web_search**  | “current”, “latest”, “today”, “2025”, etc. | Fetches live web results via Tavily API          |
 | **calculator**  | Numeric expressions (`2+2*3`, `(5^2)/4`)   | Parses and returns evaluated math                |
-| **api_request** | Queries containing valid URLs              | Performs safe external fetch and summarizes JSON |
+| **api_request** | Queries containing valid URLs              | Performs safe external fetch and summarizes JSON | 
 
 ---
 
