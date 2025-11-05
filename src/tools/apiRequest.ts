@@ -1,4 +1,4 @@
-import { getFromCache, setToCache } from "../utils/cache";
+import { getFromCache, setToCache } from "../utils/cache.js";
 
 /**
  * 🌐 Generic API Request tool
