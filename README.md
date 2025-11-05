@@ -66,6 +66,14 @@ curl -N -X POST http://localhost:3000/api/v1/chat \
   -d '{"query":"current bitcoin price"}'
 ```
 
+## Server deployed URL
+
+```bash
+curl -N -X POST https://spacesai.onrender.com/api/v1/chat \
+  -H "Content-Type: application/json" \
+  -d '{"query":"current bitcoin price"}'
+```
+
 Live stream response example:
 
 ```json
@@ -75,6 +83,13 @@ Live stream response example:
 {"type":"response","content":"The current Bitcoin price is $111,000 USD."}
 {"type":"done"}
 ```
+## Publicly available frontend implementation interfacing this backend
+
+```bash
+https://spaces-ai-frontend.vercel.app
+
+```
+https://spaces-ai-frontend.vercel.app
 
 > 🧩 Each line is a JSON event streamed in real time — perfect for chat UIs.
 
