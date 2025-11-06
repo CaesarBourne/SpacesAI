@@ -89,7 +89,9 @@ Live stream response example:
 https://spaces-ai-frontend.vercel.app
 
 ```
-https://spaces-ai-frontend.vercel.app
+ **Public URL** https://spaces-ai-frontend.vercel.app 
+
+ **Loom video** - https://www.loom.com/share/283e9d9cd1344c5a8876210526566050
 
 > 🧩 Each line is a JSON event streamed in real time — perfect for chat UIs.
 
