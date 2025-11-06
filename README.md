@@ -93,6 +93,8 @@ https://spaces-ai-frontend.vercel.app
 
  **Loom video** - https://www.loom.com/share/283e9d9cd1344c5a8876210526566050
 
+ **Frontend code for validation** - https://github.com/CaesarBourne/SpacesAIFrontend 
+
 > 🧩 Each line is a JSON event streamed in real time — perfect for chat UIs.
 
 ---
